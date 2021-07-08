@@ -1,0 +1,128 @@
+[Root]
+Most Recent Package=Main Setup
+
+
+[Package|Main Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projects\Current_Project\CS_Tools\Full\Package
+
+[Package|Main Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Main Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Main Setup|Files Found]
+
+[Package|Main Setup|Files Released]
+
+[Package|Main Setup|Missing Dependency Information]
+C:\WINNT\system32\wbemdisp.tlb=
+C:\WINNT\system32\activeds.tlb=
+D:\Projects\Current_Project\CS_Tools\Full\VB5StKit.dll=
+
+[Package|Main Setup|Out-of-Date Dependency Information]
+
+[Package|Main Setup|Files Added]
+D:\Projects\Current_Project\CS_Tools\Full\User_Migration.mdb=
+D:\Projects\Current_Project\CS_Tools\Full\Help\Help.htm=
+D:\Projects\Current_Project\CS_Tools\Full\Help\CS_Tools.jpg=
+
+[Package|Main Setup|Files Removed]
+c:\winnt\system32\activeds.tlb=
+
+[Package|Main Setup|Files In Project]
+D:\Projects\Current_Project\CS_Tools\Full\CS_Tools.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Projects\Current_Project\CS_Tools\Full\VB5StKit.dll=Yes
+C:\WINNT\system32\activeds.tlb=No
+C:\WINNT\system32\wbemdisp.tlb=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSWINSCK.OCX=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projects\Current_Project\CS_Tools\Full\User_Migration.mdb=Yes
+D:\Projects\Current_Project\CS_Tools\Full\Help\Help.htm=Yes
+D:\Projects\Current_Project\CS_Tools\Full\Help\CS_Tools.jpg=Yes
+
+[Package|Main Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Main Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Main Setup|Install Locations]
+D:\Projects\Current_Project\CS_Tools\Full\CS_Tools.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Projects\Current_Project\CS_Tools\Full\VB5StKit.dll=$(WinSysPath)
+C:\WINNT\system32\wbemdisp.tlb=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSWINSCK.OCX=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projects\Current_Project\CS_Tools\Full\User_Migration.mdb=$(AppPath)
+D:\Projects\Current_Project\CS_Tools\Full\Help\Help.htm=$(AppPath)\Help\
+D:\Projects\Current_Project\CS_Tools\Full\Help\CS_Tools.jpg=$(AppPath)\Help\
+
+[Package|Main Setup|Configure Shared Files]
+Applicable=Yes
+D:\Projects\Current_Project\CS_Tools\Full\CS_Tools.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\Projects\Current_Project\CS_Tools\Full\User_Migration.mdb=No
+D:\Projects\Current_Project\CS_Tools\Full\Help\Help.htm=No
+D:\Projects\Current_Project\CS_Tools\Full\Help\CS_Tools.jpg=No
+
+[Package|Main Setup|Distribution]
+Type=single
+Size=
+Title=CS Tools 2.0 - Full Version
+
+[Package|Main Setup|IconGroups]
+Group0=CS Tools 2.0
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Main Setup|CS Tools 2.0]
+Icon1=CS_Tools.exe
+Title1=CS Tools 2.0
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Help.htm
+Title2=Help
+StartIn2=$(AppPath)\Help\
+Key2=Icon3
+
+[Package|Main Setup|Package]
+PackageFolder=D:\Projects\Current_Project\CS_Tools\Full\Package
+ProjectFolder=D:\Projects\Current_Project\CS_Tools\Full
+ServerSideCab=
+File1=D:\Projects\Current_Project\CS_Tools\Full\Package\setup.exe
+File2=D:\Projects\Current_Project\CS_Tools\Full\Package\Setup.Lst
+File3=D:\Projects\Current_Project\CS_Tools\Full\Package\CS_Tools.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
